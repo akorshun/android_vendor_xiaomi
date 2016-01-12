@@ -16,7 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-a320-v104/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/xiaomi/qcom-common/proprietary-a320-v104/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw
+    vendor/xiaomi/qcom-common/proprietary-a320-v104/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/xiaomi/qcom-common/proprietary-a320-v104/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/xiaomi/qcom-common/proprietary-a320-v104/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/qcom-common/proprietary-a320-v104/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
