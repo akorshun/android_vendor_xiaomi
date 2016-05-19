@@ -100,7 +100,8 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/msm8960-common/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so
+    vendor/xiaomi/msm8960-common/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
+    vendor/xiaomi/msm8960-common/proprietary/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so
 
 # OMX
 PRODUCT_COPY_FILES += \
